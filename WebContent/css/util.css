@@ -1,0 +1,161 @@
+body{
+	background-color: #292F33;
+	color: white;
+	font-family: 'Rajdhani', sans-serif;
+	font-size:36px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+text{
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.box-1{
+  background-color: #999;
+  border-radius: 20px;
+  width: 45%;
+  margin-left: 10px;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  height: 300px;
+  margin-top: 70px;
+}
+
+.box-2{
+  background-color: #999;
+  border-radius: 20px;
+  width: 45%;
+  margin-left: 10px;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  height: 500px;
+  margin-top: 70px;
+}
+
+.login-align{
+  position: relative;
+  margin-top: 0px;
+  margin-top: -30px;
+}
+
+ul{
+  border-collapse: collapse;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #66757F;
+  position: relative;
+}
+
+li{
+  float: left;
+  width:15%;
+  border-right: .15vw solid #FFFFFF;
+}
+
+li:last-child {
+  width: 20%;
+  border-right: .15vw solid #FFFFFF;
+  border-left: .15vw solid #FFFFFF;
+  backround-color: green;
+}
+
+li:nth-last-child(2) {
+  width: 20%;
+  border-right: .15vw solid #FFFFFF;
+  border-left: .15vw solid #FFFFFF;
+  backround-color: green;
+}
+
+input{
+  width: 25%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6px 6px;
+  text-decoration: none;
+  font-size: 2.5vw;
+}
+
+li a:hover {
+  background-color: #171a1c;
+  transition-duration: 0.5s;
+}
+
+.login{
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.buttonbox{
+	text-align: center;
+	margin: auto;
+	font-size: 50px;
+	display: flex;
+	background-color:#292F33;
+	justify-content: center;
+}
+
+.return-button{
+	box-shadow:inset 0px 0px 0px 0px #c71cc7;
+	background-color:#4e4e4e;
+	border-radius:10px;
+	border:10px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	position: relative;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:25px 50px;
+	text-decoration:none;
+	margin: auto;
+ 	margin-left: 10px;
+ 	top: 50px;
+}
+.button1:hover{background-color:#696969;}
+.button1:active{position:relative; top:1px;}
+
+table, th, td {
+	border: 3px solid white;
+	table-layout: fixed;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	font-size: 25px;
+}
+
+.table-wrap {
+	width: 100%;
+	border-spacing: 0;
+	left: 50%;
+	text-align: center;
+	height: 100%;
+	overflow-y: scroll;
+	display: inline-block;
+}
+
+.box-3{
+	background-color: #999;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	height: 50%;
+	margin-top: 70px;
+}
+
